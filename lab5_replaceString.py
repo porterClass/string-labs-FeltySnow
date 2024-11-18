@@ -18,6 +18,9 @@ replaceString("Python is difficult.", "difficult", "really easy")
 
 
 
+def replaceString(original, target, replacement):
+    return original.replace(target, replacement, 1)
+
 
 
 
